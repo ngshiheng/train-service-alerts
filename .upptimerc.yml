@@ -100,11 +100,13 @@ sites:
           - 200
 
 status-website:
-    cname: smrt.jerrynsh.com
+    workflowSchedule:
+        uptime: "*/5 * * * *"
+    cname: mrt.jerrynsh.com
     logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
     name: "Train Service Status"
-    introTitle: "Singapore Train Service Alerts"
-    introMessage: "This page monitors the real-time status of all SMRT MRT and LRT lines. Check here for service disruptions and updates."
+    introTitle: "Maintained with 💙 by jerrynsh.com"
+    introMessage: "This page monitors the real-time status of all MRT and LRT lines in Singapore. Check here for service disruptions and updates."
     navbar:
         - title: Status
           href: /
