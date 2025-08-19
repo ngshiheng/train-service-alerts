@@ -2,23 +2,109 @@ owner: ngshiheng
 repo: train-service-alerts
 
 sites:
-    - name: Train Service Alerts
+    - name: Bukit Panjang LRT (BPL)
       url: $API_ENDPOINT
       headers:
           - "$API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down_if_text_missing: '"Status": 1'
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"BPL"'
+      expectedStatusCodes:
+          - 200
+    - name: Changi Extension (CGL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"CGL"'
+      expectedStatusCodes:
+          - 200
+    - name: Circle Line (CCL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"CCL"'
+      expectedStatusCodes:
+          - 200
+    - name: Circle Line Extension (CEL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"CEL"'
+      expectedStatusCodes:
+          - 200
+    - name: Downtown Line (DTL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"DTL"'
+      expectedStatusCodes:
+          - 200
+    - name: East-West Line (EWL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"EWL"'
+      expectedStatusCodes:
+          - 200
+    - name: North East Line (NEL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"NEL"'
+      expectedStatusCodes:
+          - 200
+    - name: North-South Line (NSL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"NSL"'
+      expectedStatusCodes:
+          - 200
+    - name: Punggol LRT East Loop (PEL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"PEL"'
+      expectedStatusCodes:
+          - 200
+    - name: Punggol LRT West Loop (PWL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"PWL"'
+      expectedStatusCodes:
+          - 200
+    - name: Sengkang LRT East Loop (SEL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"SEL"'
+      expectedStatusCodes:
+          - 200
+    - name: Sengkang LRT West Loop (SWL)
+      url: $API_ENDPOINT
+      headers:
+          - "$API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"SWL"'
       expectedStatusCodes:
           - 200
 
 status-website:
-    # Add your custom domain name, or remove the `cname` line if you don't have a domain
-    # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
     cname: smrt.jerrynsh.com
     logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-    name: Train Service Alerts Monitor
-    introTitle: "Train Service Alerts uptime monitor and status page"
-    introMessage: This status page monitors the availability of Singapore's train service alerts API. Real-time data is fetched from our [GitHub repository](https://github.com/ngshiheng/train-service-alerts). Powered by GitHub Actions, Issues, and Pages.
+    name: "Train Service Status"
+    introTitle: "Singapore Train Service Alerts"
+    introMessage: "This page monitors the real-time status of all SMRT MRT and LRT lines. Check here for service disruptions and updates."
     navbar:
         - title: Status
           href: /
