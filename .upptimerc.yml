@@ -5,7 +5,7 @@ delay: 5000 # seconds
 sites:
     - name: Bukit Panjang LRT (BPL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/bpl.svg
+      icon: https://sgtrains,jerrynsh.com/bpl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -15,7 +15,7 @@ sites:
 
     - name: Changi Extension (CGL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/cgl.svg
+      icon: https://sgtrains,jerrynsh.com/cgl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -25,7 +25,7 @@ sites:
 
     - name: Circle Line (CCL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/ccl.svg
+      icon: https://sgtrains,jerrynsh.com/ccl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -35,7 +35,7 @@ sites:
 
     - name: Circle Line Extension (CEL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/cel.svg
+      icon: https://sgtrains,jerrynsh.com/cel.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -45,7 +45,7 @@ sites:
 
     - name: Downtown Line (DTL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/dtl.svg
+      icon: https://sgtrains,jerrynsh.com/dtl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -55,7 +55,7 @@ sites:
 
     - name: East-West Line (EWL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/ewl.svg
+      icon: https://sgtrains,jerrynsh.com/ewl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -65,7 +65,7 @@ sites:
 
     - name: North East Line (NEL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/nel.svg
+      icon: https://sgtrains,jerrynsh.com/nel.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -75,7 +75,7 @@ sites:
 
     - name: North-South Line (NSL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/nsl.svg
+      icon: https://sgtrains,jerrynsh.com/nsl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -85,7 +85,7 @@ sites:
 
     - name: Punggol LRT East Loop (PEL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/pel.svg
+      icon: https://sgtrains,jerrynsh.com/pel.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -95,7 +95,7 @@ sites:
 
     - name: Punggol LRT West Loop (PWL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/pwl.svg
+      icon: https://sgtrains,jerrynsh.com/pwl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -105,7 +105,7 @@ sites:
 
     - name: Sengkang LRT East Loop (SEL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/sel.svg
+      icon: https://sgtrains,jerrynsh.com/sel.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -115,7 +115,7 @@ sites:
 
     - name: Sengkang LRT West Loop (SWL)
       url: $API_ENDPOINT
-      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/swl.svg
+      icon: https://sgtrains,jerrynsh.com/swl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
