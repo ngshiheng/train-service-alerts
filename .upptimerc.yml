@@ -141,7 +141,7 @@ status-website:
     cname: sgtrains.jerrynsh.com
     logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
     name: "Train Service Status"
-    introTitle: "Singapore MRT disruptions tracker"
+    introTitle: "Singapore MRT Disruptions Tracker"
     introMessage: "This page monitors the real-time status of all MRT and LRT lines in Singapore. It updates every 5 minutes. Check here for service disruptions and updates."
     navbar:
         - title: Is the MRT down?
