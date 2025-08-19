@@ -102,7 +102,7 @@ sites:
 status-website:
     workflowSchedule:
         uptime: "*/5 * * * *"
-    cname: mrt.jerrynsh.com
+    cname: sgtrains.jerrynsh.com
     logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
     name: "Train Service Status"
     introTitle: "Maintained with 💙 by jerrynsh.com"
