@@ -5,6 +5,7 @@ delay: 5000 # seconds
 sites:
     - name: Bukit Panjang LRT (BPL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/bpl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -14,6 +15,7 @@ sites:
           - 500 # Rate limited
     - name: Changi Extension (CGL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/cgl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -23,6 +25,7 @@ sites:
           - 500 # Rate limited
     - name: Circle Line (CCL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/ccl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -32,6 +35,7 @@ sites:
           - 500 # Rate limited
     - name: Circle Line Extension (CEL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/cel.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -41,6 +45,7 @@ sites:
           - 500 # Rate limited
     - name: Downtown Line (DTL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/dtl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -50,6 +55,7 @@ sites:
           - 500 # Rate limited
     - name: East-West Line (EWL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/ewl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -59,6 +65,7 @@ sites:
           - 500 # Rate limited
     - name: North East Line (NEL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/nel.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -68,6 +75,7 @@ sites:
           - 500 # Rate limited
     - name: North-South Line (NSL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/nsl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -77,6 +85,7 @@ sites:
           - 500 # Rate limited
     - name: Punggol LRT East Loop (PEL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/pel.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -86,6 +95,7 @@ sites:
           - 500 # Rate limited
     - name: Punggol LRT West Loop (PWL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/pwl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -95,6 +105,7 @@ sites:
           - 500 # Rate limited
     - name: Sengkang LRT East Loop (SEL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/sel.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
@@ -104,6 +115,7 @@ sites:
           - 500 # Rate limited
     - name: Sengkang LRT West Loop (SWL)
       url: $API_ENDPOINT
+      icon: https://raw.githubusercontent.com/ngshiheng/train-service-alerts/main/assets/swl.svg
       headers:
           - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
