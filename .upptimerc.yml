@@ -1,7 +1,7 @@
 owner: ngshiheng
 repo: train-service-alerts
 
-delay: 10000 # seconds
+delay: 20000 # seconds
 sites:
     - name: Bukit Panjang LRT (BPL)
       url: $API_ENDPOINT
