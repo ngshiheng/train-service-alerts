@@ -1,103 +1,116 @@
 owner: ngshiheng
 repo: train-service-alerts
 
+delay: 5000 # seconds
 sites:
     - name: Bukit Panjang LRT (BPL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"BPL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"BPL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: Changi Extension (CGL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"CGL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"CGL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: Circle Line (CCL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"CCL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"CCL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: Circle Line Extension (CEL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"CEL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"CEL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: Downtown Line (DTL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"DTL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"DTL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: East-West Line (EWL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"EWL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"EWL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: North East Line (NEL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"NEL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"NEL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: North-South Line (NSL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"NSL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"NSL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: Punggol LRT East Loop (PEL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"PEL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"PEL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: Punggol LRT West Loop (PWL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"PWL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"PWL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: Sengkang LRT East Loop (SEL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"SEL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"SEL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
     - name: Sengkang LRT West Loop (SWL)
       url: $API_ENDPOINT
       headers:
-          - "$API_KEY"
+          - "AccountKey: $API_KEY"
           - "Content-Type: application/json"
-      __dangerous__body_down: 'Status":2,"AffectedSegments":[{"Line":"SWL"'
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"SWL"'
       expectedStatusCodes:
           - 200
+          - 500 # Rate limited
 
 status-website:
     workflowSchedule:
