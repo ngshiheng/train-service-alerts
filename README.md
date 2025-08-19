@@ -1,4 +1,4 @@
-# SMRT Train Service Status
+# Train Service Alerts
 
 Monitors Singapore MRT/LRT service status using [Upptime](https://upptime.js.org).
 
