@@ -135,6 +135,18 @@ sites:
           - 200
           - 500 # Rate limited
 
+    # NOTE: TEL is not listed as officially supported by the Train Service Alerts API endpoint
+    - name: Thomson-East Coast Line (TEL)
+      url: $API_ENDPOINT
+      icon: https://sgtrains.jerrynsh.com/tel.svg
+      headers:
+          - "AccountKey: $API_KEY"
+          - "Content-Type: application/json"
+      __dangerous__body_down: '"Status":2,"AffectedSegments":[{"Line":"TEL"'
+      expectedStatusCodes:
+          - 200
+          - 500 # Rate limited
+
 status-website:
     workflowSchedule:
         uptime: "*/5 * * * *"
