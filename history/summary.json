@@ -77,18 +77,19 @@
     "icon": "https://sgtrains.jerrynsh.com/dtl.svg",
     "slug": "downtown-line-dtl",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.81%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.06%",
+    "uptimeDay": "92.07%",
+    "uptimeWeek": "98.87%",
+    "uptimeMonth": "99.06%",
+    "uptimeYear": "99.06%",
     "time": 225,
     "timeDay": 247,
     "timeWeek": 230,
     "timeMonth": 225,
     "timeYear": 225,
     "dailyMinutesDown": {
-      "2025-08-27": 3
+      "2025-08-28": 70,
+      "2025-08-27": 44
     }
   },
   {
@@ -230,7 +231,7 @@
     "uptimeYear": "100.00%",
     "time": 234,
     "timeDay": 245,
-    "timeWeek": 233,
+    "timeWeek": 231,
     "timeMonth": 234,
     "timeYear": 234,
     "dailyMinutesDown": {}
