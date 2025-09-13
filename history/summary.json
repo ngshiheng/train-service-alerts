@@ -187,19 +187,19 @@
     "url": "$API_ENDPOINT",
     "icon": "https://sgtrains.jerrynsh.com/pwl.svg",
     "slug": "punggol-lrt-west-loop-pwl",
-    "status": "up",
+    "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "97.78%",
-    "uptimeWeek": "99.68%",
+    "uptimeDay": "97.70%",
+    "uptimeWeek": "99.67%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.91%",
-    "time": 228,
-    "timeDay": 193,
-    "timeWeek": 230,
-    "timeMonth": 228,
-    "timeYear": 228,
+    "time": 226,
+    "timeDay": 191,
+    "timeWeek": 225,
+    "timeMonth": 226,
+    "timeYear": 226,
     "dailyMinutesDown": {
-      "2025-09-13": 32
+      "2025-09-13": 33
     }
   },
   {
@@ -207,19 +207,19 @@
     "url": "$API_ENDPOINT",
     "icon": "https://sgtrains.jerrynsh.com/sel.svg",
     "slug": "sengkang-lrt-east-loop-sel",
-    "status": "up",
+    "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "97.78%",
-    "uptimeWeek": "99.68%",
+    "uptimeDay": "97.72%",
+    "uptimeWeek": "99.67%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.91%",
-    "time": 228,
-    "timeDay": 201,
-    "timeWeek": 232,
-    "timeMonth": 228,
-    "timeYear": 228,
+    "time": 227,
+    "timeDay": 197,
+    "timeWeek": 227,
+    "timeMonth": 227,
+    "timeYear": 227,
     "dailyMinutesDown": {
-      "2025-09-13": 32
+      "2025-09-13": 33
     }
   },
   {
@@ -227,19 +227,19 @@
     "url": "$API_ENDPOINT",
     "icon": "https://sgtrains.jerrynsh.com/swl.svg",
     "slug": "sengkang-lrt-west-loop-swl",
-    "status": "up",
+    "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "97.78%",
+    "uptimeDay": "97.75%",
     "uptimeWeek": "99.68%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.91%",
-    "time": 235,
-    "timeDay": 194,
-    "timeWeek": 232,
-    "timeMonth": 235,
-    "timeYear": 235,
+    "time": 234,
+    "timeDay": 191,
+    "timeWeek": 227,
+    "timeMonth": 234,
+    "timeYear": 234,
     "dailyMinutesDown": {
-      "2025-09-13": 32
+      "2025-09-13": 33
     }
   },
   {
@@ -247,17 +247,17 @@
     "url": "$API_ENDPOINT",
     "icon": "https://sgtrains.jerrynsh.com/tel.svg",
     "slug": "thomson-east-coast-line-tel",
-    "status": "up",
+    "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "97.78%",
+    "uptimeDay": "97.77%",
     "uptimeWeek": "99.68%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.91%",
-    "time": 232,
-    "timeDay": 193,
-    "timeWeek": 232,
-    "timeMonth": 232,
-    "timeYear": 232,
+    "time": 230,
+    "timeDay": 191,
+    "timeWeek": 227,
+    "timeMonth": 230,
+    "timeYear": 230,
     "dailyMinutesDown": {
       "2025-09-13": 32
     }
